@@ -1,3 +1,4 @@
+# Generates profile stats for the GitHub profile README
 name: Update profile stats
 
 on:
