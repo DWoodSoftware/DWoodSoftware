@@ -187,21 +187,20 @@ The **yet** is usually the interesting part.
 # `$ git log --public`
 
 <p align="center">
-  <a href="#">
-    <img
-      src="#"
-      alt="David Wood's GitHub statistics"
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/profile/signal-field-wide-dark.svg"
     />
-  </a>
-</p>
-
-<p align="center">
-  <a href="#">
-    <img
-      src="#"
-      alt="David Wood's GitHub contribution activity"
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./assets/profile/signal-field-wide-light.svg"
     />
-  </a>
+    <img
+      src="./assets/profile/signal-field-wide-light.svg"
+      alt="David Wood's GitHub profile statistics"
+    />
+  </picture>
 </p>
 
 A fair amount of my engineering happens inside organisations rather than personal repositories.
